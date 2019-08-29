@@ -1,7 +1,7 @@
 <?php 
 
 // Create connection
-$db = mysqli_connect('localhost', 'root', '', 'register');
+$db = mysqli_connect('localhost', 'root', '', 'devs');
 
 // Check connection
 if ($db->connect_error) {
